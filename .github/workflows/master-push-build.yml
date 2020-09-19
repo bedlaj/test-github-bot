@@ -48,7 +48,7 @@ jobs:
           commit-message: "Regen for commit ${{ github.sha }}"
           committer: GitHub <noreply@github.com>
           author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
-          signoff: false
+          signoff: true
           branch: regen_bot
           delete-branch: true
           title: "Generated sources regen"
@@ -64,4 +64,3 @@ jobs:
             automated pr
 #          assignees: oscerd
 #          reviewers: oscerd
-          draft: false

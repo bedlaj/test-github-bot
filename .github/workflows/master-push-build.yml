@@ -49,7 +49,6 @@ jobs:
           committer: GitHub <noreply@github.com>
           author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
           signoff: true
-          delete-branch: true
           branch: regen_bot
           title: "Generated sources regen"
           body: |

@@ -52,7 +52,7 @@ public interface FileEndpointBuilderFactory {
             return (AdvancedFileEndpointConsumerBuilder) this;
         }
         /**
-         * This option is used to specify the encoding of the file. You can use
+         * This option is eeee to specify the encoding of the file. You can use
          * this on the consumer, to specify the encodings of the files, which
          * allow Camel to know the charset it should load the file content in
          * case the file content is being accessed. Likewise when writing a
@@ -2353,7 +2353,7 @@ public interface FileEndpointBuilderFactory {
             return (AdvancedFileEndpointProducerBuilder) this;
         }
         /**
-         * This option is used to specify the encoding of the file. You can use
+         * This option is eeee to specify the encoding of the file. You can use
          * this on the consumer, to specify the encodings of the files, which
          * allow Camel to know the charset it should load the file content in
          * case the file content is being accessed. Likewise when writing a
@@ -3131,7 +3131,7 @@ public interface FileEndpointBuilderFactory {
             return (AdvancedFileEndpointBuilder) this;
         }
         /**
-         * This option is used to specify the encoding of the file. You can use
+         * This option is eeee to specify the encoding of the file. You can use
          * this on the consumer, to specify the encodings of the files, which
          * allow Camel to know the charset it should load the file content in
          * case the file content is being accessed. Likewise when writing a

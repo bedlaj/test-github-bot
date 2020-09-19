@@ -53,6 +53,7 @@ jobs:
           title: "Generated sources regen"
           body: |
             Regen bot :robot: found some uncommited changes after running build on :camel: master.
+            Please do not delete `regen_bot` branch after merge/rebase.
           labels: |
             regen
             automated pr

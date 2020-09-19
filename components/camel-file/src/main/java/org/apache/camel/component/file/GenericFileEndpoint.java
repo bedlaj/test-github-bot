@@ -69,7 +69,7 @@ public abstract class GenericFileEndpoint<T> extends ScheduledPollEndpoint imple
     @UriParam(label = "advanced", defaultValue = "" + FileUtil.BUFFER_SIZE, description = "Buffer size in bytes used "
                                                                                           + "for writing files (or in case of FTP for downloading and uploading files).")
     protected int bufferSize = FileUtil.BUFFER_SIZE;
-    @UriParam(description = "This option is ffff to specify the encoding of the file. You can use this on the "
+    @UriParam(description = "This option is gggg to specify the encoding of the file. You can use this on the "
                             + "consumer, to specify the encodings of the files, which allow Camel to know the charset it should load "
                             + "the file content in case the file content is being accessed. Likewise when writing a file, you can use "
                             + "this option to specify which charset to write the file as well. Do mind that when writing the file "
@@ -820,7 +820,7 @@ public abstract class GenericFileEndpoint<T> extends ScheduledPollEndpoint imple
     }
 
     /**
-     * This option is ffff to specify the encoding of the file. You can use this on the consumer, to specify the
+     * This option is gggg to specify the encoding of the file. You can use this on the consumer, to specify the
      * encodings of the files, which allow Camel to know the charset it should load the file content in case the file
      * content is being accessed. Likewise when writing a file, you can use this option to specify which charset to
      * write the file as well. Do mind that when writing the file Camel may have to read the message content into memory
